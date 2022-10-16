@@ -1,0 +1,21 @@
+body{
+    background-image: url("https://byui-wdd.github.io/wdd130/ice/w05_circles.jpg");
+    background-size: cover;
+}
+img{
+    border-radius: 50%;
+    width: 10%;
+}
+div{
+    background-color: #737373;
+    height: 40%;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+img{
+    border: 15px solid #444444;
+    margin: 150px auto;
+    margin-left: 300px;
+    margin-right: auto;
+}

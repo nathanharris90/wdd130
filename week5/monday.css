@@ -1,0 +1,39 @@
+.top {
+    background-color: red;
+    margin-right: 250px;
+    margin-left: 250px;
+}
+.center {
+    background-color: blue;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+.bottom {
+    background-color: green;
+    margin-right: 150px;
+    margin-left: 150px;
+}
+h4 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: auto;
+    text-align: center;
+    
+}
+.purple1 {
+    background-color: purple;
+    height: 100px;
+    width: 100px;
+    margin-left: 150px;
+    margin-top: 15px;
+}
+.purple2 {
+    background-color: purple;
+    height: 100px;
+    width: 100px;
+    margin-right: 150px;
+    margin-left: auto;
+    margin-top: 15px;
+}
