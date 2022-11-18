@@ -241,7 +241,7 @@ hero-msg h4 {
     position: relative;
     left: -280px;
 }
-button {
+button:not(.buttons) {
     font-family: "Abyssinica SIL", Helvetica, sans-serif;
     border: none;
     background-color: #4A8FE7;
@@ -256,8 +256,18 @@ button {
     margin-right: 20px;
 }
 
+#feedback {
+    background-color: antiquewhite;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: .5em;
+    /* make this element invisible until we are ready for it */
+    display: none;      
+}
+.moveDown {
+    margin-top: 3em;
+}
 
 
-
-
-/* continue on STEP 4 Main Grid */
