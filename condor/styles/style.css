@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
+@import url('https://fonts.googleapis.com/css2?family=Island+Moments&display=swap');
+
+body {
+    background-color: #E1CA96;
+}
+#title {
+    font-size: 75px;
+}
+#section1 {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+}
+img:nth-of-type(1){
+    grid-column: 1;
+}
+h1:nth-of-type(1){
+    grid-column: 2; 
+}
+h1 {
+    color:#434A42;
+    font-family: Island Moments;
+    font-size: 50px;
+}
+h3{
+    color: #434A42;
+    font-family: Island Moments;
+    font-size: 35px;
+}
+h4 {
+    color: #434A42;
+    font-family: Lato;
+    font-size: 25px;
+}
+p {
+    color:#626C66;
+    font-family: Lato;
+}
+#logo {
+    max-width: 100px;
+    max-height: auto;
+}
+a {
+    text-decoration: none;
+    padding: 10px;
+    float: right;
+    font-size: 25px;
+    font-family: Lato;
+}
+#mainpic {
+    max-width: 400px;
+    display: block;
+    margin: auto;
+}
+img {
+    max-width: 250px;
+    max-height: auto;
+}
+#section2 {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    grid-template-rows: 375px 250px 200px;
+}
+p:nth-of-type(1){
+    grid-column: 2;
+    padding: 15px;
+    font-size: 25px;
+}
+img:nth-of-type(1) {
+    grid-column: 1;
+    padding: 15px;
+}
+p:nth-of-type(2){
+    grid-column: 2;
+    padding: 15px;
+    font-size: 25px;
+}
+img:nth-of-type(2) {
+    grid-column: 1;
+    padding: 15px;
+}
+p:nth-of-type(3){
+    grid-column: 2;
+    padding: 15px;
+    font-size: 25px;
+}
+img:nth-of-type(3) {
+    grid-column: 1;
+    padding: 15px;
+}
+#backtotop {
+    background-color: #626C66;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 25px;
+}
+#packages {
+    background-color: #626C66;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 25px;
+}
+
