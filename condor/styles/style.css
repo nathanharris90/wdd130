@@ -95,11 +95,121 @@ img:nth-of-type(3) {
     border-radius: 4px;
     font-size: 25px;
 }
-#packages {
+#packages_button {
     background-color: #626C66;
     color: white;
     border: none;
     border-radius: 4px;
     font-size: 25px;
 }
+#sunglasses {
+    background-image: url("http://127.0.0.1:5500/condor/images/Optimized-pexels-fabio-partenheimer-712395.jpg");
+    height: 1000px;    
+    background-repeat: none;
+    background-position: center;
+    background-size: cover;
+    
+}
 
+#packages {
+    text-align: center;
+    color: black;
+    background-color:#E1CA96;
+    font-size: 150px;
+}
+
+#p2section {
+    display: grid;
+    grid-template-columns: 300px 1fr 200px;
+    grid-template-rows: 300px 300px 300px;
+}
+img:nth-of-type(1){
+    grid-column: 1;
+    grid-row: 1;
+}
+img:nth-of-type(2){
+    grid-column: 1;
+    grid-row: 2;
+}
+img:nth-of-type(3){
+    grid-column: 1;
+    grid-row: 3;
+}
+p:nth-of-type(1){
+    grid-column: 2;
+    grid-row: 1;
+}
+p:nth-of-type(2){
+    grid-column: 2;
+    grid-row: 2;
+}
+p:nth-of-type(3){
+    grid-column: 2;
+    grid-row: 3;
+}
+a:nth-of-type(1){
+    grid-column: 3;
+    grid-row: 1;
+    text-align: center;
+    margin-top: 40px;
+
+}
+a:nth-of-type(2){
+    grid-column: 3;
+    grid-row: 2;
+    text-align: center;
+    margin-top: 40px;
+}
+a:nth-of-type(3){
+    grid-column: 3;
+    grid-row: 3;
+    text-align: center;
+    margin-top: 40px;
+
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .bg-image {
+    /* Full height */
+    height: 50%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  /* Images used */
+  .img1 { background-image: url("img_snow.jpg"); }
+  .img2 { background-image: url("img_girl.jpg"); }
+  .img3 { background-image: url("img_lights.jpg"); }
+  .img4 { background-image: url("img_nature.jpg"); }
+  .img5 { background-image: url("img_forest.jpg"); }
+  .img6 { background-image: url("img_woods.jpg"); }
+  
+  /* Position text in the middle of the page/image */
+  .bg-text {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    font-size: 80px;
+    border: 10px solid #f1f1f1;
+    position: fixed; /* Stay fixed */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+  }
