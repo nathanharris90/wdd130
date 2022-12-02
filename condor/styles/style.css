@@ -102,14 +102,22 @@ img:nth-of-type(3) {
     border-radius: 4px;
     font-size: 25px;
 }
+#siteplan {
+    background-color: #626C66;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 25px;
+}
 #sunglasses {
     background-image: url("http://127.0.0.1:5500/condor/images/Optimized-pexels-fabio-partenheimer-712395.jpg");
-    height: 1000px;    
+    height: 1500px;    
     background-repeat: none;
     background-position: center;
     background-size: cover;
     
 }
+
 
 #packages {
     text-align: center;
