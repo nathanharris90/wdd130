@@ -11,10 +11,10 @@ body {
     display: grid;
     grid-template-columns: 150px 1fr;
 }
-img:nth-of-type(1){
+#section1,img:nth-of-type(1){
     grid-column: 1;
 }
-h1:nth-of-type(1){
+#section1,h1:nth-of-type(1){
     grid-column: 2; 
 }
 h1 {
@@ -61,30 +61,30 @@ img {
     grid-template-columns: 300px 1fr;
     grid-template-rows: 375px 250px 200px;
 }
-p:nth-of-type(1){
+#section2,p:nth-of-type(1){
     grid-column: 2;
     padding: 15px;
     font-size: 25px;
 }
-img:nth-of-type(1) {
+#section2,img:nth-of-type(1) {
     grid-column: 1;
     padding: 15px;
 }
-p:nth-of-type(2){
+#section2,p:nth-of-type(2){
     grid-column: 2;
     padding: 15px;
     font-size: 25px;
 }
-img:nth-of-type(2) {
+#section2,img:nth-of-type(2) {
     grid-column: 1;
     padding: 15px;
 }
-p:nth-of-type(3){
+#section2,p:nth-of-type(3){
     grid-column: 2;
     padding: 15px;
     font-size: 25px;
 }
-img:nth-of-type(3) {
+#section2,img:nth-of-type(3) {
     grid-column: 1;
     padding: 15px;
 }
@@ -120,10 +120,11 @@ img:nth-of-type(3) {
 
 
 #packages {
-    text-align: center;
-    color: black;
-    background-color:#E1CA96;
-    font-size: 150px;
+    background-color: #626C66;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 25px;
 }
 
 #p2section {
@@ -131,93 +132,102 @@ img:nth-of-type(3) {
     grid-template-columns: 300px 1fr 200px;
     grid-template-rows: 300px 300px 300px;
 }
-img:nth-of-type(1){
+#p2section img:nth-of-type(1){
     grid-column: 1;
     grid-row: 1;
 }
-img:nth-of-type(2){
+#p2section img:nth-of-type(2){
     grid-column: 1;
     grid-row: 2;
 }
-img:nth-of-type(3){
+#p2section img:nth-of-type(3){
     grid-column: 1;
     grid-row: 3;
 }
-p:nth-of-type(1){
+#p2section p:nth-of-type(1){
     grid-column: 2;
     grid-row: 1;
 }
-p:nth-of-type(2){
+#p2section p:nth-of-type(2){
     grid-column: 2;
     grid-row: 2;
 }
-p:nth-of-type(3){
+#p2section p:nth-of-type(3){
     grid-column: 2;
     grid-row: 3;
 }
-a:nth-of-type(1){
+#p2section a:nth-of-type(1){
     grid-column: 3;
     grid-row: 1;
     text-align: center;
     margin-top: 40px;
+}
+#p2section a:nth-of-type(2){
+    grid-column: 3;
+    grid-row: 2;
+    text-align: center;
+    margin-top: 40px;
+}
+#p2section a:nth-of-type(3){
+    grid-column: 3;
+    grid-row: 3;
+    text-align: center;
+    margin-top: 40px;
+}
+#p3section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px 30px 300px;
+}
+#p3section img:nth-of-type(1){
+    grid-column: 1;
+    grid-row: 1;
+    position: relative;
+    left: 150px;
+}
+#p3section img:nth-of-type(2){
+    grid-column: 2;
+    grid-row: 1;
+    position: relative;
+    left: 150px;
+}
+#p3section img:nth-of-type(3){
+    grid-column: 3;
+    grid-row: 1;
+    position: relative;
+    left: 150px;
+}
+#p3section p:nth-of-type(1){
+    grid-column: 1;
+    grid-row: 3;
+}
+#p3section p:nth-of-type(2){
+    grid-column: 2;
+    grid-row: 3;
+}
+#p3section p:nth-of-type(3){
+    grid-column: 3;
+    grid-row: 3;
+}
 
-}
-a:nth-of-type(2){
-    grid-column: 3;
-    grid-row: 2;
-    text-align: center;
-    margin-top: 40px;
-}
-a:nth-of-type(3){
-    grid-column: 3;
-    grid-row: 3;
-    text-align: center;
-    margin-top: 40px;
 
-}
 
 body, html {
     height: 100%;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
   }
-  
-  * {
-    box-sizing: border-box;
-  }
-  
-  .bg-image {
-    /* Full height */
-    height: 50%;
-  
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  
-  /* Images used */
-  .img1 { background-image: url("img_snow.jpg"); }
-  .img2 { background-image: url("img_girl.jpg"); }
-  .img3 { background-image: url("img_lights.jpg"); }
-  .img4 { background-image: url("img_nature.jpg"); }
-  .img5 { background-image: url("img_forest.jpg"); }
-  .img6 { background-image: url("img_woods.jpg"); }
-  
-  /* Position text in the middle of the page/image */
-  .bg-text {
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
-    color: white;
-    font-weight: bold;
-    font-size: 80px;
-    border: 10px solid #f1f1f1;
-    position: fixed; /* Stay fixed */
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 2;
-    width: 300px;
-    padding: 20px;
+
+
+#codeof {
     text-align: center;
-  }
+}
+#codeofp {
+    padding-left: 550px;
+    padding-right: 550px;
+    text-align:center;
+}
+#p3why {
+    text-align: center;
+    font-size: 100px;
+}
